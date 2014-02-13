@@ -1,0 +1,10 @@
+language: objective-c
+
+before_install:
+    - brew update
+    - brew uninstall xctool && brew install xctool
+    - gem install cocoapods
+
+script:
+  - xctool -workspace ProceduralLevelGeneration.xcworkspace -scheme ProceduralLevelGeneration -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+  - xctool test -workspace ProceduralLevelGeneration.xcworkspace -scheme ProceduralLevelGeneration -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
