@@ -18,7 +18,6 @@
 		019FDB52189FC77500A62861 /* HealthHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 019FDB51189FC77500A62861 /* HealthHolder.m */; };
 		019FDB59189FCF7400A62861 /* APad.m in Sources */ = {isa = PBXBuildFile; fileRef = 019FDB58189FCF7400A62861 /* APad.m */; };
 		019FDB5D189FD03700A62861 /* sword.png in Resources */ = {isa = PBXBuildFile; fileRef = 019FDB5C189FD03700A62861 /* sword.png */; };
-		019FDB5F189FD08400A62861 /* sword-pap.png in Resources */ = {isa = PBXBuildFile; fileRef = 019FDB5E189FD08400A62861 /* sword-pap.png */; };
 		019FDB6418A0E55B00A62861 /* Food.m in Sources */ = {isa = PBXBuildFile; fileRef = 019FDB6318A0E55B00A62861 /* Food.m */; };
 		019FDB6818A0EB4200A62861 /* FoodManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 019FDB6718A0EB4200A62861 /* FoodManager.m */; };
 		019FDB6C18A0FEE400A62861 /* ScoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 019FDB6B18A0FEE400A62861 /* ScoreManager.m */; };
@@ -94,7 +93,6 @@
 		019FDB57189FCF7400A62861 /* APad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APad.h; sourceTree = "<group>"; };
 		019FDB58189FCF7400A62861 /* APad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APad.m; sourceTree = "<group>"; };
 		019FDB5C189FD03700A62861 /* sword.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sword.png; sourceTree = "<group>"; };
-		019FDB5E189FD08400A62861 /* sword-pap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sword-pap.png"; sourceTree = "<group>"; };
 		019FDB60189FD8C600A62861 /* DistanceMeasure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DistanceMeasure.h; sourceTree = "<group>"; };
 		019FDB6218A0E55B00A62861 /* Food.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Food.h; sourceTree = "<group>"; };
 		019FDB6318A0E55B00A62861 /* Food.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Food.m; sourceTree = "<group>"; };
@@ -356,7 +354,6 @@
 			isa = PBXGroup;
 			children = (
 				019FDB5C189FD03700A62861 /* sword.png */,
-				019FDB5E189FD08400A62861 /* sword-pap.png */,
 			);
 			name = Image;
 			sourceTree = "<group>";
@@ -756,7 +753,6 @@
 				4414DA7717BD286B00E3CE36 /* win.wav in Resources */,
 				4414DA7417BD27CE00E3CE36 /* step.wav in Resources */,
 				448D6AFC17B7C9A3002FA381 /* sprites.atlas in Resources */,
-				019FDB5F189FD08400A62861 /* sword-pap.png in Resources */,
 				449AF6C317B52CAD0004289F /* InfoPlist.strings in Resources */,
 				449AF6D617B52CAD0004289F /* Images.xcassets in Resources */,
 				449AF6CC17B52CAD0004289F /* Main.storyboard in Resources */,
