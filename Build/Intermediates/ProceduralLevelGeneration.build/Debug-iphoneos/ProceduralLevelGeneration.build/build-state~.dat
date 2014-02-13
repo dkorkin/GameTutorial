@@ -1,0 +1,668 @@
+TProceduralLevelGeneration
+v6
+r1
+cCheck dependencies
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/ResourceRules.plist
+cProcessPCH /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/PrecompiledHeaders/ProceduralLevelGeneration-Prefix-ekqsqusludgawwdkaiwtcqdltood/ProceduralLevelGeneration-Prefix.pch.pch ProceduralLevelGeneration/ProceduralLevelGeneration-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/MapTiles.o /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/MapTiles.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/Map.o /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/Map.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/DPad.o /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/DPad.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/MyScene.o /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/MyScene.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/ViewController.o /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/AppDelegate.o /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/main.o /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/ProceduralLevelGeneration normal armv7s
+cCpResource ProceduralLevelGeneration/sound/SillyFun.mp3 Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/SillyFun.mp3
+cCpResource ProceduralLevelGeneration/sound/win.wav Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/win.wav
+cCpResource ProceduralLevelGeneration/sound/step.wav Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/step.wav
+cGenerating texture atlas from /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/sprites.atlas
+cCopyStringsFile /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/en.lproj/InfoPlist.strings ProceduralLevelGeneration/en.lproj/InfoPlist.strings
+cCompileStoryboard /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/Base.lproj/Main.storyboard
+cGenerating texture atlas from /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/tiles.atlas
+cCompileAssetCatalog /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/Images.xcassets
+cProcessInfoPlistFile /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/Info.plist /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/ProceduralLevelGeneration-Info.plist
+cGenerateDSYMFile /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app.dSYM /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/ProceduralLevelGeneration
+cProcessProductPackaging /Users/dkorkin/Library/MobileDevice/Provisioning\ Profiles/2FCC436E-DB3F-425D-B389-DDF0739590FF.mobileprovision /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/embedded.mobileprovision
+cTouch /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/ProceduralLevelGeneration.xcent
+cCodeSign /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk
+c0000000052BAADBD0000000000000110
+t1387965885
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist
+c00000000527794450000000000000094
+t1383568453
+s148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist
+c00000000527794450000000000000096
+t1383568453
+s150
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/SDKSettings.plist
+c0000000052779445000000000000036B
+t1383568453
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c000000005277944500000000000001A0
+t1383568453
+s416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000005277944700000000004D63C0
+t1383568455
+s5071808
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c00000000527794480000000000A92BC0
+t1383568456
+s11086784
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/SpriteKit.framework/SpriteKit
+c000000005277944900000000003076D0
+t1383568457
+s3176144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000005277944D00000000025A5AC0
+t1383568461
+s39475904
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/include/module.map
+c000000005277949F0000000000000AC9
+t1383568543
+s2761
+
+N/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/PrecompiledHeaders/ProceduralLevelGeneration-Prefix-ekqsqusludgawwdkaiwtcqdltood/ProceduralLevelGeneration-Prefix.pch.pch
+t1390319608
+s87280
+
+N/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/AppDelegate.o
+t1390319609
+s64628
+
+N/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/DPad.o
+t1390319609
+s72612
+
+N/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/Map.o
+t1390319609
+s64184
+
+N/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/MapTiles.o
+t1390319609
+s18716
+
+N/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/MyScene.o
+t1390319609
+s94520
+
+N/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/ProceduralLevelGeneration.LinkFileList
+c0000000052DE97F8000000000000055E
+t1390319608
+s1374
+
+N/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/ViewController.o
+t1390319609
+s54620
+
+N/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/main.o
+t1390319609
+s3868
+
+N/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/ProceduralLevelGeneration.xcent
+t1390319610
+s438
+
+N/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/assetcatalog_dependencies.txt
+t1390319610
+s503
+
+N/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/assetcatalog_generated_info.plist
+t1390319610
+s525
+
+N/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app
+t1390319610
+s544
+
+N/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app.dSYM
+t2
+s0
+
+N/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/Base.lproj/Main.storyboardc
+t1390319610
+s170
+
+N/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/Info.plist
+t1390319610
+s1386
+
+N/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/PkgInfo
+t1390319610
+s8
+
+N/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/ProceduralLevelGeneration
+t1390319610
+s109016
+
+N/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/ResourceRules.plist
+t1390319608
+s150
+
+N/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/SillyFun.mp3
+t1390319610
+s2986235
+
+N/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/embedded.mobileprovision
+t1390319610
+s14071
+
+N/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/en.lproj/InfoPlist.strings
+t1390319610
+s42
+
+N/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/sprites.plist
+t2
+s0
+
+N/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/sprites.png
+t2
+s0
+
+N/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/step.wav
+t1390319610
+s4918
+
+N/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/tiles.plist
+t2
+s0
+
+N/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/tiles.png
+t2
+s0
+
+N/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/win.wav
+t1390319610
+s122146
+
+N/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/AppDelegate.m
+c000000005204F52C00000000000007EC
+t1376056620
+s2028
+
+N/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/Base.lproj/Main.storyboard
+c000000005204F5B800000000000007EC
+t1376056760
+s2028
+
+N/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/DPad.m
+c000000005208906A0000000000001D66
+t1376292970
+s7526
+
+N/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/Images.xcassets
+c0000000052DE972E0000000000000088
+t1390319406
+s136
+
+N/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/Map.m
+c000000005251569A00000000000014BE
+t1381062298
+s5310
+
+N/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/MapTiles.m
+c000000005251579C0000000000000C13
+t1381062556
+s3091
+
+N/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/MyScene.m
+c0000000052508960000000000000210B
+t1381009760
+s8459
+
+N/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/ProceduralLevelGeneration-Info.plist
+c000000005204F58C00000000000004F7
+t1376056716
+s1271
+
+N/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/ProceduralLevelGeneration-Prefix.pch
+c000000005204F52C0000000000000158
+t1376056620
+s344
+
+N/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/ViewController.m
+c00000000520CFF120000000000000737
+t1376583442
+s1847
+
+N/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/en.lproj/InfoPlist.strings
+c000000005204F52C000000000000002D
+t1376056620
+s45
+
+N/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/main.m
+c000000005204F52C0000000000000166
+t1376056620
+s358
+
+N/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/sound/SillyFun.mp3
+c00000000520CFD2400000000002D90FB
+t1376582948
+s2986235
+
+N/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/sound/step.wav
+c000000004DED894A0000000000001336
+t1307412810
+s4918
+
+N/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/sound/win.wav
+c000000004DED8930000000000001DD22
+t1307412784
+s122146
+
+N/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/sprites.atlas
+c0000000052DE972E0000000000000110
+t1390319406
+s272
+
+N/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/tiles.atlas
+c0000000052DE972E0000000000000088
+t1390319406
+s136
+
+N/Users/dkorkin/Library/MobileDevice/Provisioning Profiles/2FCC436E-DB3F-425D-B389-DDF0739590FF.mobileprovision
+c0000000052C1316900000000000036F7
+t1388392809
+s14071
+
+CBuild AST from /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/AppDelegate.m
+r0
+
+CBuild AST from /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/DPad.m
+r0
+
+CBuild AST from /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/Map.m
+r0
+
+CBuild AST from /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/MapTiles.m
+r0
+
+CBuild AST from /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/MyScene.m
+r0
+
+CBuild AST from /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/ViewController.m
+r0
+
+CBuild AST from /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesb059ae78cf8eb841^26fdb978cf8eb841^---0#1#1#--18"Check dependencies36"66631941-3596-463D-9F36-917FC538AA37-
+
+CCodeSign /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app
+s412012410.504376
+e412012410.699995
+r1
+xCodeSign
+x/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"CodeSign Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app68"CodeSign Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app7f33817acf8eb841^9833b37acf8eb841^---0#0#1#-19%DVTDocumentLocation2@141"file://localhost/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/0000000000000000^1198"CodeSign Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app    cd /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    Using code signing identity "iPhone Developer: Ram Otion (Y2XU6P6V36)" and provisioning profile "Ramotion Team Provisioning" (2FCC436E-DB3F-425D-B389-DDF0739590FF)    codesign --force --sign 9B86D0E357AE63A24B890BE1AE823D8F54C78C1E --resource-rules=/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/ResourceRules.plist --entitlements /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/ProceduralLevelGeneration.xcent /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app36"ED235016-0983-4F70-BFAC-E92C22361087-
+b0E94273E-33A4-4EF7-A4A9-29CB4C1DB644
+
+CCompileAssetCatalog /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/Images.xcassets
+s412012410.149461
+e412012410.392541
+r1
+xCompileAssetCatalog
+x/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app
+x/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/Images.xcassets
+o/* com.apple.actool.compilation-results */
+o/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/LaunchImage-700-568h@2x.png
+o/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/Assets.car
+o/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/assetcatalog_generated_info.plist
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"CompileAssetCatalog Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app ProceduralLevelGeneration/Images.xcassets121"CompileAssetCatalog Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app ProceduralLevelGeneration/Images.xcassetse754267acf8eb841^e57d647acf8eb841^-531"/* com.apple.actool.compilation-results *//Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/LaunchImage-700-568h@2x.png/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/Assets.car/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@123"file://localhost/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/Images.xcassets/0000000000000000^1325"CompileAssetCatalog Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app ProceduralLevelGeneration/Images.xcassets    cd /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphoneos --minimum-deployment-target 7.0 --target-device iphone --compress-pngs --compile /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/Images.xcassets36"3D347107-6A2B-4BF6-A78E-CBE4198E9392-
+b0E94273E-33A4-4EF7-A4A9-29CB4C1DB644
+
+CCompileC Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/AppDelegate.o /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s412012409.048127
+e412012409.112790
+r1
+xCompileC
+xBuild/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/AppDelegate.o
+x/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/AppDelegate.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/AppDelegate.m
+d/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"Compile /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/AppDelegate.m253"CompileC Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/AppDelegate.o ProceduralLevelGeneration/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler876c0c79cf8eb841^76e01c79cf8eb841^---0#0#1#-19%DVTDocumentLocation2@120"file://localhost/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/AppDelegate.m0000000000000000^4346"CompileC Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/AppDelegate.o ProceduralLevelGeneration/AppDelegate.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/dkorkin/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/ProceduralLevelGeneration-generated-files.hmap -I/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/ProceduralLevelGeneration-own-target-headers.hmap -I/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/ProceduralLevelGeneration-all-target-headers.hmap -iquote /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/ProceduralLevelGeneration-project-headers.hmap -I/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/DerivedSources/armv7s -I/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/DerivedSources -F/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos -include /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/PrecompiledHeaders/ProceduralLevelGeneration-Prefix-ekqsqusludgawwdkaiwtcqdltood/ProceduralLevelGeneration-Prefix.pch -MMD -MT dependencies -MF /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/AppDelegate.d --serialize-diagnostics /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/AppDelegate.dia -c /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/AppDelegate.m -o /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/AppDelegate.o36"8F5F6FA3-80F2-4F09-8328-52404AC17645-
+b0E94273E-33A4-4EF7-A4A9-29CB4C1DB644
+
+CCompileC Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/DPad.o /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/DPad.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s412012408.927685
+e412012409.046776
+r1
+xCompileC
+xBuild/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/DPad.o
+x/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/DPad.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/DPad.m
+d/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/DPad.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/DPad.m239"CompileC Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/DPad.o ProceduralLevelGeneration/DPad.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilere693ed78cf8eb841^e8f90b79cf8eb841^---0#0#1#-19%DVTDocumentLocation2@113"file://localhost/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/DPad.m0000000000000000^4304"CompileC Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/DPad.o ProceduralLevelGeneration/DPad.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/dkorkin/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/ProceduralLevelGeneration-generated-files.hmap -I/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/ProceduralLevelGeneration-own-target-headers.hmap -I/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/ProceduralLevelGeneration-all-target-headers.hmap -iquote /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/ProceduralLevelGeneration-project-headers.hmap -I/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/DerivedSources/armv7s -I/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/DerivedSources -F/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos -include /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/PrecompiledHeaders/ProceduralLevelGeneration-Prefix-ekqsqusludgawwdkaiwtcqdltood/ProceduralLevelGeneration-Prefix.pch -MMD -MT dependencies -MF /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/DPad.d --serialize-diagnostics /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/DPad.dia -c /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/DPad.m -o /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/DPad.o36"E851172B-83B2-44D8-B268-927509849A2D-
+b0E94273E-33A4-4EF7-A4A9-29CB4C1DB644
+
+CCompileC Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/Map.o /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/Map.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s412012408.927619
+e412012409.047108
+r1
+xCompileC
+xBuild/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/Map.o
+x/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/Map.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/Map.m
+d/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/Map.h
+d/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/MapTiles.h
+d/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/MyScene.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/Map.m237"CompileC Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/Map.o ProceduralLevelGeneration/Map.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler6d90ed78cf8eb841^68220c79cf8eb841^---0#0#1#-19%DVTDocumentLocation2@112"file://localhost/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/Map.m0000000000000000^4298"CompileC Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/Map.o ProceduralLevelGeneration/Map.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/dkorkin/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/ProceduralLevelGeneration-generated-files.hmap -I/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/ProceduralLevelGeneration-own-target-headers.hmap -I/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/ProceduralLevelGeneration-all-target-headers.hmap -iquote /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/ProceduralLevelGeneration-project-headers.hmap -I/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/DerivedSources/armv7s -I/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/DerivedSources -F/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos -include /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/PrecompiledHeaders/ProceduralLevelGeneration-Prefix-ekqsqusludgawwdkaiwtcqdltood/ProceduralLevelGeneration-Prefix.pch -MMD -MT dependencies -MF /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/Map.d --serialize-diagnostics /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/Map.dia -c /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/Map.m -o /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/Map.o36"13DBFA16-57CD-4249-B14C-400FAE42CBDD-
+b0E94273E-33A4-4EF7-A4A9-29CB4C1DB644
+
+CCompileC Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/MapTiles.o /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/MapTiles.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s412012408.927561
+e412012409.036500
+r1
+xCompileC
+xBuild/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/MapTiles.o
+x/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/MapTiles.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/MapTiles.m
+d/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/MapTiles.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Compile /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/MapTiles.m247"CompileC Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/MapTiles.o ProceduralLevelGeneration/MapTiles.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler478ded78cf8eb841^64580979cf8eb841^---0#0#1#-19%DVTDocumentLocation2@117"file://localhost/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/MapTiles.m0000000000000000^4328"CompileC Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/MapTiles.o ProceduralLevelGeneration/MapTiles.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/dkorkin/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/ProceduralLevelGeneration-generated-files.hmap -I/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/ProceduralLevelGeneration-own-target-headers.hmap -I/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/ProceduralLevelGeneration-all-target-headers.hmap -iquote /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/ProceduralLevelGeneration-project-headers.hmap -I/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/DerivedSources/armv7s -I/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/DerivedSources -F/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos -include /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/PrecompiledHeaders/ProceduralLevelGeneration-Prefix-ekqsqusludgawwdkaiwtcqdltood/ProceduralLevelGeneration-Prefix.pch -MMD -MT dependencies -MF /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/MapTiles.d --serialize-diagnostics /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/MapTiles.dia -c /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/MapTiles.m -o /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/MapTiles.o36"0E7F666D-11C5-4560-BAD0-CE98BDC0F1F3-
+b0E94273E-33A4-4EF7-A4A9-29CB4C1DB644
+
+CCompileC Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/MyScene.o /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/MyScene.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s412012408.928098
+e412012409.056197
+r1
+xCompileC
+xBuild/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/MyScene.o
+x/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/MyScene.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/MyScene.m
+d/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/MyScene.h
+d/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/DPad.h
+d/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/Map.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compile /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/MyScene.m245"CompileC Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/MyScene.o ProceduralLevelGeneration/MyScene.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler2eaeed78cf8eb841^86760e79cf8eb841^---0#0#1#-19%DVTDocumentLocation2@116"file://localhost/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/MyScene.m0000000000000000^4322"CompileC Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/MyScene.o ProceduralLevelGeneration/MyScene.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/dkorkin/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/ProceduralLevelGeneration-generated-files.hmap -I/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/ProceduralLevelGeneration-own-target-headers.hmap -I/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/ProceduralLevelGeneration-all-target-headers.hmap -iquote /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/ProceduralLevelGeneration-project-headers.hmap -I/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/DerivedSources/armv7s -I/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/DerivedSources -F/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos -include /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/PrecompiledHeaders/ProceduralLevelGeneration-Prefix-ekqsqusludgawwdkaiwtcqdltood/ProceduralLevelGeneration-Prefix.pch -MMD -MT dependencies -MF /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/MyScene.d --serialize-diagnostics /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/MyScene.dia -c /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/MyScene.m -o /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/MyScene.o36"4FD47DFB-FC93-460D-82F3-F398AD168456-
+b0E94273E-33A4-4EF7-A4A9-29CB4C1DB644
+
+CCompileC Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/ViewController.o /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s412012409.037881
+e412012409.460111
+r1
+xCompileC
+xBuild/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/ViewController.o
+x/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/ViewController.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/ViewController.m
+d/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/ViewController.h
+d/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/MyScene.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Compile /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/ViewController.m259"CompileC Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/ViewController.o ProceduralLevelGeneration/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler9bcb0979cf8eb841^6dca7579cf8eb841^---0#0#1#-19%DVTDocumentLocation2@123"file://localhost/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/ViewController.m0000000000000000^4364"CompileC Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/ViewController.o ProceduralLevelGeneration/ViewController.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/dkorkin/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/ProceduralLevelGeneration-generated-files.hmap -I/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/ProceduralLevelGeneration-own-target-headers.hmap -I/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/ProceduralLevelGeneration-all-target-headers.hmap -iquote /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/ProceduralLevelGeneration-project-headers.hmap -I/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/DerivedSources/armv7s -I/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/DerivedSources -F/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos -include /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/PrecompiledHeaders/ProceduralLevelGeneration-Prefix-ekqsqusludgawwdkaiwtcqdltood/ProceduralLevelGeneration-Prefix.pch -MMD -MT dependencies -MF /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/ViewController.d --serialize-diagnostics /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/ViewController.dia -c /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/ViewController.m -o /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/ViewController.o36"39C8B925-E359-4E5E-883C-537F74357128-
+b0E94273E-33A4-4EF7-A4A9-29CB4C1DB644
+
+CCompileC Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/main.o /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s412012409.048694
+e412012409.096732
+r1
+xCompileC
+xBuild/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/main.o
+x/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/main.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/main.m
+d/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/main.m239"CompileC Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/main.o ProceduralLevelGeneration/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerc18d0c79cf8eb841^f4c31879cf8eb841^---0#0#1#-19%DVTDocumentLocation2@113"file://localhost/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/main.m0000000000000000^4304"CompileC Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/main.o ProceduralLevelGeneration/main.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/dkorkin/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/ProceduralLevelGeneration-generated-files.hmap -I/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/ProceduralLevelGeneration-own-target-headers.hmap -I/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/ProceduralLevelGeneration-all-target-headers.hmap -iquote /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/ProceduralLevelGeneration-project-headers.hmap -I/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/DerivedSources/armv7s -I/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/DerivedSources -F/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos -include /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/PrecompiledHeaders/ProceduralLevelGeneration-Prefix-ekqsqusludgawwdkaiwtcqdltood/ProceduralLevelGeneration-Prefix.pch -MMD -MT dependencies -MF /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/main.d --serialize-diagnostics /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/main.dia -c /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/main.m -o /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/main.o36"FEB7DDB9-52A5-4D2B-A6C2-81FAAB5DC2F7-
+b0E94273E-33A4-4EF7-A4A9-29CB4C1DB644
+
+CCompileStoryboard /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/Base.lproj/Main.storyboard
+s412012410.136461
+e412012410.194280
+r1
+xCompileStoryboard
+x/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/Base.lproj/Main.storyboard
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"CompileStoryboard ProceduralLevelGeneration/Base.lproj/Main.storyboard70"CompileStoryboard ProceduralLevelGeneration/Base.lproj/Main.storyboardcefc227acf8eb841^42cc317acf8eb841^---0#0#1#-19%DVTDocumentLocation2@133"file://localhost/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/Base.lproj/Main.storyboard0000000000000000^912"CompileStoryboard ProceduralLevelGeneration/Base.lproj/Main.storyboard    cd /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration    setenv IBSC_MINIMUM_COMPATIBILITY_VERSION 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.0 --output-format human-readable-text --compile /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/Base.lproj/Main.storyboardc /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/Base.lproj/Main.storyboard36"BB6D6C4E-6B63-4BF2-9939-98A2AFC9A464-
+b0E94273E-33A4-4EF7-A4A9-29CB4C1DB644
+
+CCopyStringsFile /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/en.lproj/InfoPlist.strings ProceduralLevelGeneration/en.lproj/InfoPlist.strings
+s412012410.136106
+e412012410.148211
+r1
+xCopyStringsFile
+x/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/en.lproj/InfoPlist.strings
+xProceduralLevelGeneration/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy ProceduralLevelGeneration/en.lproj/InfoPlist.strings155"CopyStringsFile Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/en.lproj/InfoPlist.strings ProceduralLevelGeneration/en.lproj/InfoPlist.stringsdae6227acf8eb841^bff1257acf8eb841^---0#0#1#-19%DVTDocumentLocation2@133"file://localhost/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/en.lproj/InfoPlist.strings0000000000000000^696"CopyStringsFile Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/en.lproj/InfoPlist.strings ProceduralLevelGeneration/en.lproj/InfoPlist.strings    cd /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/en.lproj -- ProceduralLevelGeneration/en.lproj/InfoPlist.strings36"F30304CE-1B8A-43C8-994D-692D1E1CD019-
+b0E94273E-33A4-4EF7-A4A9-29CB4C1DB644
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/ResourceRules.plist
+s412012408.728452
+e412012408.730498
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist
+xBuild/Products/Debug-iphoneos/ProceduralLevelGeneration.app/ResourceRules.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Copy Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/ResourceRules.plist212"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/ResourceRules.plist5589ba78cf8eb841^da37bb78cf8eb841^---0#0#1#-19%DVTDocumentLocation2@160"file://localhost/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/ResourceRules.plist0038e89adfffdf42^832"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/ResourceRules.plist    cd /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app36"FDACADFF-8E3A-458E-B670-6580D72CF805-
+b0E94273E-33A4-4EF7-A4A9-29CB4C1DB644
+
+CCpResource ProceduralLevelGeneration/sound/SillyFun.mp3 Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/SillyFun.mp3
+s412012410.129930
+e412012410.135633
+r1
+xCpResource
+xProceduralLevelGeneration/sound/SillyFun.mp3
+xBuild/Products/Debug-iphoneos/ProceduralLevelGeneration.app/SillyFun.mp3
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Copy Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/SillyFun.mp3128"CpResource ProceduralLevelGeneration/sound/SillyFun.mp3 Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/SillyFun.mp3fc54217acf8eb841^aeba227acf8eb841^---0#0#1#-19%DVTDocumentLocation2@153"file://localhost/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/SillyFun.mp30038e89adfffdf42^736"CpResource ProceduralLevelGeneration/sound/SillyFun.mp3 Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/SillyFun.mp3    cd /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/sound/SillyFun.mp3 /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app36"F852C002-A9B6-4D06-B389-207485221294-
+b0E94273E-33A4-4EF7-A4A9-29CB4C1DB644
+
+CCpResource ProceduralLevelGeneration/sound/step.wav Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/step.wav
+s412012410.130364
+e412012410.134819
+r1
+xCpResource
+xProceduralLevelGeneration/sound/step.wav
+xBuild/Products/Debug-iphoneos/ProceduralLevelGeneration.app/step.wav
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/step.wav120"CpResource ProceduralLevelGeneration/sound/step.wav Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/step.wav666b217acf8eb841^7a8c227acf8eb841^---0#0#1#-19%DVTDocumentLocation2@149"file://localhost/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/step.wav0038e89adfffdf42^724"CpResource ProceduralLevelGeneration/sound/step.wav Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/step.wav    cd /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/sound/step.wav /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app36"67C5C9ED-9F8B-4207-9CA6-BC09AB3783CC-
+b0E94273E-33A4-4EF7-A4A9-29CB4C1DB644
+
+CCpResource ProceduralLevelGeneration/sound/win.wav Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/win.wav
+s412012410.130274
+e412012410.134816
+r1
+xCpResource
+xProceduralLevelGeneration/sound/win.wav
+xBuild/Products/Debug-iphoneos/ProceduralLevelGeneration.app/win.wav
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Copy Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/win.wav118"CpResource ProceduralLevelGeneration/sound/win.wav Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/win.wav0267217acf8eb841^5988227acf8eb841^---0#0#1#-19%DVTDocumentLocation2@148"file://localhost/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/win.wav0038e89adfffdf42^721"CpResource ProceduralLevelGeneration/sound/win.wav Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/win.wav    cd /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/sound/win.wav /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app36"C6F2FD06-8019-4CDE-BA79-6084D2FF4B5C-
+b0E94273E-33A4-4EF7-A4A9-29CB4C1DB644
+
+CGenerateDSYMFile /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app.dSYM /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/ProceduralLevelGeneration
+s412012410.412843
+e412012410.445200
+r1
+xGenerateDSYMFile
+x/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app.dSYM
+x/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/ProceduralLevelGeneration
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection138"Generate /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app.dSYM167"GenerateDSYMFile Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app.dSYM Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/ProceduralLevelGenerationb6bd697acf8eb841^59f9717acf8eb841^---0#0#1#-19%DVTDocumentLocation2@145"file://localhost/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app.dSYM0038e89adfffdf42^812"GenerateDSYMFile Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app.dSYM Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/ProceduralLevelGeneration    cd /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/ProceduralLevelGeneration -o /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app.dSYM36"BA0ACABB-9DAA-4386-8E00-4955C2BCFBF5-
+b0E94273E-33A4-4EF7-A4A9-29CB4C1DB644
+
+CGenerating texture atlas from /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/sprites.atlas
+s412012410.130677
+e412012410.181361
+r1
+xGenerating
+xtexture
+xatlas
+xfrom
+x/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/sprites.atlas
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Generating texture atlas from ProceduralLevelGeneration/sprites.atlas69"Generating texture atlas from ProceduralLevelGeneration/sprites.atlasfa7f217acf8eb841^546e2e7acf8eb841^---0#0#1#-19%DVTDocumentLocation2@121"file://localhost/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/sprites.atlas/0000000000000000^637"Generating texture atlas from ProceduralLevelGeneration/sprites.atlas    cd /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Tools/../usr/bin/TextureAtlas /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/sprites.atlas /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app36"1A7D84BC-FF49-4D23-9B07-3BDADA056E14-
+b0E94273E-33A4-4EF7-A4A9-29CB4C1DB644
+
+CGenerating texture atlas from /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/tiles.atlas
+s412012410.136487
+e412012410.171659
+r1
+xGenerating
+xtexture
+xatlas
+xfrom
+x/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/tiles.atlas
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Generating texture atlas from ProceduralLevelGeneration/tiles.atlas67"Generating texture atlas from ProceduralLevelGeneration/tiles.atlas0dfe227acf8eb841^5ef22b7acf8eb841^---0#0#1#-19%DVTDocumentLocation2@119"file://localhost/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/tiles.atlas/0000000000000000^633"Generating texture atlas from ProceduralLevelGeneration/tiles.atlas    cd /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Tools/../usr/bin/TextureAtlas /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/tiles.atlas /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app36"01E38DF9-65E5-43DB-9FFF-80A464D68666-
+b0E94273E-33A4-4EF7-A4A9-29CB4C1DB644
+
+CLd /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/ProceduralLevelGeneration normal armv7s
+s412012409.468719
+e412012410.121141
+r1
+xLd
+x/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/ProceduralLevelGeneration
+xnormal
+xarmv7s
+d/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/ProceduralLevelGeneration.LinkFileList
+d/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/MapTiles.o
+d/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/Map.o
+d/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/DPad.o
+d/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/MyScene.o
+d/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/ViewController.o
+d/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/AppDelegate.o
+d/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/main.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/SpriteKit.framework/SpriteKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreMIDI.framework/CoreMIDI
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/MediaToolbox.framework/MediaToolbox
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection155"Link /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/ProceduralLevelGeneration102"Ld Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/ProceduralLevelGeneration normal armv7s0e107879cf8eb841^c0031f7acf8eb841^---0#0#1#--1631"Ld Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/ProceduralLevelGeneration normal armv7s    cd /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration    setenv IPHONEOS_DEPLOYMENT_TARGET 7.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7s -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos -F/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos -filelist /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/ProceduralLevelGeneration.LinkFileList -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.0 -framework CoreGraphics -framework UIKit -framework SpriteKit -framework Foundation -Xlinker -dependency_info -Xlinker /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/Objects-normal/armv7s/ProceduralLevelGeneration_dependency_info.dat -o /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/ProceduralLevelGeneration36"787225D6-D23B-4828-8671-972F4F5251C5-
+b0E94273E-33A4-4EF7-A4A9-29CB4C1DB644
+
+CProcessInfoPlistFile /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/Info.plist /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/ProceduralLevelGeneration-Info.plist
+s412012410.400893
+e412012410.404664
+r1
+xProcessInfoPlistFile
+x/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/Info.plist
+x/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/ProceduralLevelGeneration-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"Process /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/ProceduralLevelGeneration-Info.plist154"ProcessInfoPlistFile Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/Info.plist ProceduralLevelGeneration/ProceduralLevelGeneration-Info.plist42b0667acf8eb841^c898677acf8eb841^---0#0#1#-19%DVTDocumentLocation2@143"file://localhost/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/ProceduralLevelGeneration-Info.plist0000000000000000^1296"ProcessInfoPlistFile Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/Info.plist ProceduralLevelGeneration/ProceduralLevelGeneration-Info.plist    cd /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/ProceduralLevelGeneration-Info.plist -genpkginfo /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/ResourceRules.plist -additionalcontentfile /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/assetcatalog_generated_info.plist -o /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/Info.plist36"BFF1253F-4FA4-42A3-BBF5-BB3A26BB954A-
+b0E94273E-33A4-4EF7-A4A9-29CB4C1DB644
+
+CProcessPCH /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/PrecompiledHeaders/ProceduralLevelGeneration-Prefix-ekqsqusludgawwdkaiwtcqdltood/ProceduralLevelGeneration-Prefix.pch.pch ProceduralLevelGeneration/ProceduralLevelGeneration-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s412012408.740013
+e412012408.919081
+r1
+xProcessPCH
+x/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/PrecompiledHeaders/ProceduralLevelGeneration-Prefix-ekqsqusludgawwdkaiwtcqdltood/ProceduralLevelGeneration-Prefix.pch.pch
+xProceduralLevelGeneration/ProceduralLevelGeneration-Prefix.pch
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/ProceduralLevelGeneration-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Precompile ProceduralLevelGeneration/ProceduralLevelGeneration-Prefix.pch285"ProcessPCH Build/Intermediates/PrecompiledHeaders/ProceduralLevelGeneration-Prefix-ekqsqusludgawwdkaiwtcqdltood/ProceduralLevelGeneration-Prefix.pch.pch ProceduralLevelGeneration/ProceduralLevelGeneration-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerad89bd78cf8eb841^4949eb78cf8eb841^---0#0#1#-19%DVTDocumentLocation2@143"file://localhost/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/ProceduralLevelGeneration-Prefix.pch0000000000000000^4213"ProcessPCH Build/Intermediates/PrecompiledHeaders/ProceduralLevelGeneration-Prefix-ekqsqusludgawwdkaiwtcqdltood/ProceduralLevelGeneration-Prefix.pch.pch ProceduralLevelGeneration/ProceduralLevelGeneration-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/dkorkin/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.0 -iquote /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/ProceduralLevelGeneration-generated-files.hmap -I/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/ProceduralLevelGeneration-own-target-headers.hmap -I/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/ProceduralLevelGeneration-all-target-headers.hmap -iquote /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/ProceduralLevelGeneration-project-headers.hmap -I/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/DerivedSources/armv7s -I/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/DerivedSources -F/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos --serialize-diagnostics /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/PrecompiledHeaders/ProceduralLevelGeneration-Prefix-ekqsqusludgawwdkaiwtcqdltood/ProceduralLevelGeneration-Prefix.pch.dia -MMD -MT dependencies -MF /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/PrecompiledHeaders/ProceduralLevelGeneration-Prefix-ekqsqusludgawwdkaiwtcqdltood/ProceduralLevelGeneration-Prefix.pch.d -c /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/ProceduralLevelGeneration-Prefix.pch -o /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/PrecompiledHeaders/ProceduralLevelGeneration-Prefix-ekqsqusludgawwdkaiwtcqdltood/ProceduralLevelGeneration-Prefix.pch.pch36"B04273DD-7C3E-409E-9B0A-D41A85B6792C-
+b0E94273E-33A4-4EF7-A4A9-29CB4C1DB644
+
+CProcessPCH /Users/dkorkin/Library/Developer/Xcode/DerivedData/ProceduralLevelGeneration-fxjbprecqlguerfqacavtunhibyf/Index/PrecompiledHeaders/ProceduralLevelGeneration-Prefix-dvepvvgkrhqzpvcisqgsuxxsmjkk_ast/ProceduralLevelGeneration-Prefix.pch.pch ProceduralLevelGeneration/ProceduralLevelGeneration-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/ProceduralLevelGeneration.xcent
+s412012410.493716
+e412012410.495997
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist
+x/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/ProceduralLevelGeneration.xcent
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection275"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/ProceduralLevelGeneration.xcent275"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/ProceduralLevelGeneration.xcent2a747e7acf8eb841^61fa7e7acf8eb841^---0#0#1#-19%DVTDocumentLocation2@211"file://localhost/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/ProceduralLevelGeneration.xcent0038e89adfffdf42^918"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/ProceduralLevelGeneration.xcent    cd /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Intermediates/ProceduralLevelGeneration.build/Debug-iphoneos/ProceduralLevelGeneration.build/ProceduralLevelGeneration.xcent36"36139598-87C1-4230-A0D9-D37A9AF31013-
+b0E94273E-33A4-4EF7-A4A9-29CB4C1DB644
+
+CProcessProductPackaging /Users/dkorkin/Library/MobileDevice/Provisioning\ Profiles/2FCC436E-DB3F-425D-B389-DDF0739590FF.mobileprovision /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/embedded.mobileprovision
+s412012410.453439
+e412012410.471230
+r1
+xProcessProductPackaging
+x/Users/dkorkin/Library/MobileDevice/Provisioning Profiles/2FCC436E-DB3F-425D-B389-DDF0739590FF.mobileprovision
+x/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/embedded.mobileprovision
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection220"ProcessProductPackaging /Users/dkorkin/Library/MobileDevice/Provisioning\ Profiles/2FCC436E-DB3F-425D-B389-DDF0739590FF.mobileprovision Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/embedded.mobileprovision220"ProcessProductPackaging /Users/dkorkin/Library/MobileDevice/Provisioning\ Profiles/2FCC436E-DB3F-425D-B389-DDF0739590FF.mobileprovision Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/embedded.mobileprovisionea23747acf8eb841^e8a3787acf8eb841^---0#0#1#-19%DVTDocumentLocation2@165"file://localhost/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/embedded.mobileprovision0038e89adfffdf42^782"ProcessProductPackaging /Users/dkorkin/Library/MobileDevice/Provisioning\ Profiles/2FCC436E-DB3F-425D-B389-DDF0739590FF.mobileprovision Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/embedded.mobileprovision    cd /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Users/dkorkin/Library/MobileDevice/Provisioning\ Profiles/2FCC436E-DB3F-425D-B389-DDF0739590FF.mobileprovision -o /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app/embedded.mobileprovision36"22BE144A-2AE8-42D1-A2DF-5A56506C2EF9-
+b0E94273E-33A4-4EF7-A4A9-29CB4C1DB644
+
+CTouch /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app
+s412012410.479881
+e412012410.485599
+r1
+xTouch
+x/Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection130"Touch /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app65"Touch Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app0ce77a7acf8eb841^98517c7acf8eb841^---0#0#1#--473"Touch Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app    cd /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/Build/Products/Debug-iphoneos/ProceduralLevelGeneration.app36"40E3449A-ACFA-4FEE-86AB-8AFC23A7AD64-
+b0E94273E-33A4-4EF7-A4A9-29CB4C1DB644
+

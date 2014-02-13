@@ -1,0 +1,24 @@
+dependencies: \
+  /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/GameScene.m \
+  /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/GameScene.h \
+  /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/GameOverScene.h \
+  /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/DPad.h \
+  /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/APad.h \
+  /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/Map.h \
+  /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/MapTiles.h \
+  /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/FloorMaker.h \
+  /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/DogRoute.h \
+  /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/Map_Private.h \
+  /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/CatPlayer.h \
+  /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/CreatureHealth.h \
+  /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/LevelObject.h \
+  /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/DistanceMeasure.h \
+  /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/Dog.h \
+  /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/CreatureObject.h \
+  /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/Key.h \
+  /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/Exit.h \
+  /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/HealthHolder.h \
+  /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/FoodManager.h \
+  /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/GCDSingleton.h \
+  /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/Food.h \
+  /Users/dkorkin/Desktop/SHARE/SpriteKit/ProceduralLevelGeneration/ProceduralLevelGeneration/ScoreManager.h
